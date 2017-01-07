@@ -83,23 +83,23 @@
       {
         skill: 'WebSphere',
         value: 9,
-        stack: 'Middleware'
+        stack: 'backend'
       }, {
         skill: 'Apache',
         value: 9,
-        stack: 'Middleware'
+        stack: 'frontend'
       }, {
         skill: 'AWS',
         value: 6,
-        stack: 'Cloud'
+        stack: 'frontend'
       }, {
         skill: 'Jboss',
         value: 8,
-        stack: 'Middleware'
+        stack: 'frontend'
       }, {
         skill: 'Devops',
         value: 8,
-        stack: 'Agile'
+        stack: 'frontend'
       }, {
         skill: 'Docker',
         value: 7,
