@@ -1,0 +1,87 @@
+{
+  "recommendationsReceived": {
+    "_total": 8,
+    "values": [
+      {
+        "recommendationText": "Speaking as a designer, Apoorva has been one of the few Front End Developers, who are a pleasure to work with. She understands what is required out of a design and then takes it up as a challenge to get it to reality in code. She is always ready to take up challenging tasks and doesn't shy away from giving in long hours when required. ",
+        "recommender": {
+          "firstName": "Anuj",
+          "headline": "UX Designer at Microsoft",
+          "lastName": "Gadre",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_hTReA0gCQqXURfKACkVRAg7akAlsJuAAGifcAy2tUq5w6H6lubIkxpZyExAkswrj3CJnORYtm6KM",
+          "publicProfileUrl": "https://www.linkedin.com/in/anuj-gadre-34a64517"
+        }
+      },
+      {
+        "recommendationText": "\r\nApoorva is a keen learner and extremely talented person. She is an excellent mentor and very nice to her juniors. I got an awesome opportunity to work under her as an intern and try out new things which helped me pushing my boundaries. I wish her success for all her future endeavors.",
+        "recommender": {
+          "firstName": "Sanyam",
+          "headline": "Seeking full time job opportunities",
+          "lastName": "Khurana",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_Wn8k22v0hZuQPJ85WPPU27qYCUJQAJ35wqNR2mnSgYDBag9LLKKeCaG_uzMZtOhWevCsidHXDiqW",
+          "publicProfileUrl": "https://www.linkedin.com/in/sanyamkhurana"
+        }
+      },
+      {
+        "recommendationText": "Apoorva is hardworking, innovative and quick learner. She completes her work with minute details and on time. She is a good mentor and team player. She works beyond technology barrier. Working with her was an honour.",
+        "recommender":  {
+          "firstName": "Kantesh",
+          "headline": "DevOps Engineer at Housing.com",
+          "lastName": "Raj",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_OPQTE-QC1ekCprykpB6YElQf1Hc7yvukpNtOElFO2DiY_AUXtvnSXAPrjQBl0tSe0Kkx59JgFZcX",
+          "publicProfileUrl": "https://www.linkedin.com/in/kanteshraj"
+        }
+      },
+      {
+        "recommendationText": "Apoorva is a very innovative, enthusiastic and a smart worker. I have had learnt a lot from her when it comes to designing UI/UX for the Android App. Overall she is a very cool, calm and composed colleague to work with.",
+        "recommender":  {
+          "firstName": "Deepank",
+          "headline": "Product Manager at 1mg (previously HealthKartPlus)",
+          "lastName": "Rastogi",
+          "pictureUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAARMAAAAJGYyN2RlZDk4LTI3YzItNGY1ZS04OTVkLTY0NWU2NzBiZGMwNQ.jpg",
+          "publicProfileUrl": "https://www.linkedin.com/in/deepankrastogi"
+        }
+      },
+      {
+        "recommendationText": "It was a pleasure to work together with Apoorva, who was a hardworking Intern. She is not only a wise and responsible employee but also an inspiring professional. Has a lot of analytical, programmatical capability and willingness for her both personal & professional development. Always takes care of the job, works hard and really enjoys team-working. Motivated perfectionist with very good communication skills. Very positive attitude towards work. I strongly endorse Apoorva!",
+        "recommender": {
+          "firstName": "Kailas",
+          "headline": "Web/Mobile UI/UX Developer",
+          "lastName": "Gayakwad",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_mOItwEYv12gw6tmz2p1p7DbvvWA9hCGqTOApD0tNzOOB5-i4TO1y6Rxv9gtw6tiz3OP18ZKzyV1c662qkSam_YjJJV1n66bz3SalexHq-R6V2ryWSpZ0HI6LM7dQ76rXeaEYf3AE26H",
+          "publicProfileUrl": "https://www.linkedin.com/in/kgayakwad"
+        }
+      },
+      {
+        "recommendationText": "Apoorva is a proactive contributor to the team with excellent technical skills,an avid learner as well as great listener who would make a great addition to any team. Throughout the intern-ship, she completed her assignments on time and never failed to add a creative touch when appropriate. I would highly recommend her for any position, as she naturally rises to the occasion when presented with something she is passionate about.",
+        "recommender": {
+          "firstName": "Shashikant",
+          "headline": "Senior Software Engineer at Mastek Ltd",
+          "lastName": "Singh",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_P7F2AvpvYqRY61EYrwlSsXMvOqqGhtQ-pOx2qTUvO5v_5CRf9wjSsXnvgX9_5C5OJOj3xTMzB_Ri_nV_MpGrJTqJ-_RC_nxGVpGf-83qJCaaW8kYnSNTtqfLt93tonH1PxQhvtINvSV",
+          "publicProfileUrl": "https://www.linkedin.com/in/shashikant-singh-3858072a"
+        }
+      },
+      {
+        "recommendationText": "Apoorva is very creative and passionate about what she likes. She can be very focused and diligent in her work. She is very good in web technologies like, html, css, jquery, etc. I has always been a pleasure to work with her.",
+        "recommender": {
+          "firstName": "Arya",
+          "headline": "Student, XLRI Jamshedpur",
+          "lastName": "Roychowdhury",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_CHQ4YJD6mPqsLs6Dho9wYsaemzFzdJ9DhEtbYUO4l91L9g3SaanqrRE98gboEOc3_Ik6lpuQG9z_",
+          "publicProfileUrl": "https://www.linkedin.com/in/aryaroychowdhury"
+        }
+      },
+      {
+        "recommendationText": "Apoorva is a very hard working person. She is a thorough professional when it comes to meeting expectations. She also has very good communication skills. I wish her all the best for all future endeavours and she would definately prove to be an asset to any organization and team where she works in.",
+        "recommender": {
+          "firstName": "Deepak",
+          "headline": "Senior Software Developer at AdaptiveMobile",
+          "lastName": "Shakya",
+          "pictureUrl": "https://media.licdn.com/mpr/mprx/0_mZ1Zc0LoGhddmwx7FZbJsDBIQ99VDR1GFdI9-ERI69eUew1iwy5Zzd7IhBEdmwxibZdnnZ2wErIRIxEY3I9k0IDbfrIsIxBaFI9Uqo4EXAO93Wutws8zNY9U75AECxh0metNPNBY1om",
+          "publicProfileUrl": "https://www.linkedin.com/in/deepak-shakya-404620a"
+        }
+      }
+    ]
+  }
+}

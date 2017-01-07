@@ -1,0 +1,109 @@
+ .contentsection{width:90%;}
+ h1{margin:0 -5px;text-transform: capitalize;}
+ h1 a {
+    text-transform: lowercase;
+    margin-left: 0;
+}
+ .header{display: none ;}
+  #headerSection .btn{display: none ;}
+  .gicon:before{display: none ;content:"" ;}
+  .tabs{display: none;}
+  .tab-items {
+    display: block !important;
+    margin-bottom: 40px;
+  }
+  .tab-items .heading{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+        margin-top: 10px;
+  }
+  #skill .btn.arrow, #skill .h1{display: none;}
+  .projects li:before{content:"";}
+  .projects li {
+    border: none;
+    margin-top: 40px;
+  }
+  .projects .commits {
+    margin-top:0;
+    margin-left: 0;
+    font-weight: 700;
+    color: black;
+  }
+  .projects .project-details {
+    border: none;
+    margin-left: 9px;
+    padding: 0;
+  }
+  .projects .more{display: none;}
+  .projects .description{
+    display: block;
+    font-family: sans-serif;
+    font-size: .7em;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-left: 0;
+    padding-left: 0;
+  }
+  .stack-tags {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    font-size: .7em;
+    padding: 2px 5px;
+    color: #596063;
+  }
+  span.stack-tags:not(:last-child):after{content: ","}
+  .projects .frontend,.projects .backend,.projects .others{
+    display: none;
+  }
+  .projects .title {
+    font-size: 0.9em;
+    color: #525454;
+  }
+  .skill-set-graph, .skill-set-graph li{
+    border: none;
+    box-shadow: none;
+  }
+  #education{display: none !important;}
+#skillSet > li {
+    border-bottom: 0 none;
+    /*box-shadow: 0 4px 0 0px rgba(200,200,200,0.3);*/
+    display: inline-block;
+    height: 17px;
+    margin: 1% 2%;
+    padding: 0;
+    padding-bottom: 7px;
+    position: relative;
+    width: 107px;
+}
+#skillSet > li::before {
+    /*box-shadow: 0 0 0 1px #ccc;*/
+    left: 0;
+    text-transform: capitalize;
+    padding: 4px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.graph {
+    bottom:-22px;
+    display: block;
+    height: 0;
+    left: 0;
+    margin: 0;
+    /*opacity: 0.3;*/
+    transition:none;
+    position: relative;   
+}
+.graph.frontend{box-shadow:0 4px 0 1px #B68ACB;}
+.graph.backend{box-shadow:0 4px 0 1px rgb(0,189,208);}
+.graph.others{box-shadow:0 4px 0 1px rgb(220,231,117);}
+#recommendation .recomends-content{display: none;}
+.refferals >div a.linkedin-icon{display: none;}
+.refferals >div a.email-icon:before{content: "";}
+.refferals >div a.email-icon:after{content: attr(href);}

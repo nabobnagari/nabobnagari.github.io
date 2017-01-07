@@ -1,1 +1,206 @@
-<h1> Hello world, Let me introduce  I am Pratap </h1>
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<base href="http://imnagari.ml">
+<meta name="description" content="because.. i Can">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apoorva Srinivasan</title>
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="semantic.min.css" rel="stylesheet" type="text/css">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<!--  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300"
+              rel="stylesheet" type="text/css"> -->
+<link rel="canonical" href="http://imnagari.ml">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/welcome-to-nikola/" type="text/html">
+</head>
+<body>
+
+
+<div class="layer2 fixed scrolling">
+
+<header class="">
+	<div class="header-container">
+	<h1>Pratap Reddy</h1>
+<!-- 	<ul  class="">
+		<li class=" massive circular red label  ui">Work</li>
+		<li class=" massive circular blue label  ui">Twitter</li>
+		<li class=" massive circular green label  ui">Facebook</li>
+		<li class=" massive circular purple label  ui">Pintrest</li>
+	</ul>  -->   
+	</div>
+</header>
+<!-- <div class="header-bg" style='display:block;height:900px;'></div> -->
+	<div class=" solo-pic "><img src = "solo.jpg" /></div>
+
+<section id="about" class='active' style="margin-top:2rem">
+
+	<div class="ui header teal large"> About Me</div>
+			Hello.
+		I am Pratap.
+		<br/>
+		I work as a Admin in Singapore.
+		<br/>
+		I am simple person.
+		<br/>
+		<br/>
+		<br/>
+		<a class = "ui  large button teal" href="resume?src=home">My Work </a>
+	</p>
+	
+</section>
+
+<!-- <section id="twitter">
+	<a class="twitter-timeline" href="https://twitter.com/imnagari">Tweets by Pratap</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section> -->
+
+</div>
+<footer class="spread">
+	<a target = '_blank' href = "/resume?src=home">Hire_Me</a>
+	<a target = '_blank' href = "http://twitter.com/imnagari"><i class="icon black large twitter"></i></a>
+	<a target = '_blank' href = "http://facebook.com/petonabob"><i class="icon black large facebook"></i></a>
+	<a target = '_blank' href = "http://facebook.com/petonabob"><i class="icon black large pinterest"></i></a>
+	<a target = '_blank' href = "http://facebook.com/petonabob"><i class="icon black large instagram"></i></a>
+	<a target = '_blank' href = "http://facebook.com/petonabob"><i class="icon black large whatsapp"></i></a>
+	<a target = '_blank' href = "http://facebook.com/petonabob"><i class="icon black large soundcloud"></i></a>
+	  
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- <script type="text/javascript" src = "assets/js/scrollme.js"></script> -->
+<script type="text/javascript">
+	var Scroll = {
+		lastScrollTop : 0,
+		perFrame:500,
+		actionDictionary:{},
+		getDirection:function(){
+			var st = $(window).scrollTop();
+			
+			var llt = this.lastScrollTop;
+			
+			if(st >= llt){
+				//SCROLL DOWN
+				return 1
+			}
+			else
+				return -1;
+		},
+		totalFrames : function(){
+			return parseInt(window.scrollMaxY / this.perFrame);
+		},
+		currentFrame:function(){
+			var currentScroll = window.scrollY;
+			return parseInt(currentScroll/this.perFrame);
+
+		},
+		setItem:function(start, duration, func, reverse){
+			this.actionDictionary[start] = {'func':func}
+			this.actionDictionary[start + duration] = {'func':reverse}
+		},
+		executeItem:function(e){
+			var start = this.currentFrame();
+			var item = this.actionDictionary[start];
+			if (item)
+				item.func(e);
+		},
+		init:function(){
+			var self = this;
+			window.onscroll = function(e){
+				// smartscroll(e);
+				// console.log()
+				// console.log(self.getDirection());
+				// self.executeItem(e)
+
+			}
+		},
+	}
+
+var ypos = function(){
+	return window.scrollY;
+}
+var ScrollEVents = {
+	header : false
+}
+window.scrollTo(0, window.scrollY+1);		
+window.onscroll = function(){
+
+	if(ypos() >=0 && ypos() <= 600)
+		headerScroll();
+	// if(ypos >500 && ypos <=600)
+	// if(ypos() >=0 && ypos() <= 600)
+	// sectionScrolls()
+	Scroll.lastScrollTop = ypos();
+}
+ // Scroll.init()
+		// Scroll.setItem(0, 5 ,function(){
+		// 	$('header').height(70)
+		// },function(){
+		// 	$('header').height(530)
+		// })
+
+function headerScroll(){
+	var scrollDist = 500;
+	var height = 530 - 70;
+	// var currentHeight = $('header').height();
+	var scrolled = (ypos()-  Scroll.lastScrollTop );
+	var dir = Scroll.getDirection();
+	scrolled  = scrolled * dir	
+	var height_perScroll = height/scrollDist;
+	// console.log(height_perScroll)
+		var h = $('header')[0].offsetHeight;
+	// console.log("  scrolled:"+scrolled+"   diff: "  +(height_perScroll * scrolled) + "reduced Height: "+h)
+		// console.log(h);
+	if(dir >0){
+		//Down
+		// if(h <= 70) return
+		// if(window.scrollY >scrollDist) return 
+		var newheight = Math.max(h-(height_perScroll*1.0 * scrolled), 70)
+		// console.log(currentHeight)
+		if(newheight  == 70 ) {
+			if(h == 70) return;
+			$('header').height(70);
+			ScrollEVents.header = true;
+				
+			console.log(ypos())
+			$('h1').css('color','black');
+			var top = $('.solo-pic')[0].offsetTop * -1;
+			$('.solo-pic').animate({'margin-top': top}, 1000)
+		}
+		else
+			$('header').css('height',newheight);
+	}
+	else{
+		if(ypos() >=scrollDist) return
+			// var top = $('.solo-pic')[0].offsetTop *;
+			$('.solo-pic').removeAttr('style');
+		// if(h >= 530) return ;
+	  newheight = Math.min(h+(height_perScroll* scrolled), 530)
+		$('header').height(newheight);
+		$('h1').css('color','white');
+	}
+}
+function sectionScrolls(){
+	var scrolled = (ypos()-  Scroll.lastScrollTop );
+	console.log()
+	var dir = Scroll.getDirection();
+	var top = parseInt($('section.active').css('top'));
+	var active = $('section.active');
+	if(visible(active)){
+		$(active).css("top",top - scrolled);
+	}
+	else{
+		$(active).removeClass('active');
+		$(active).next().addClass('active');
+	}
+}
+function visible(el){
+	if(!el[0]) return;
+	if( el[0].offsetTop + $(el).height() > 0 )
+	return true
+  else 
+  	return false
+}
+</script>
+</body>
+</html>

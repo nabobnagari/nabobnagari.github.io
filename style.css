@@ -1,0 +1,118 @@
+body{padding:0;margin:0;font-family: "open Sans", sans-serif; line-height: 1.1, font-size:14px;height:1500px !important;}
+@font-face{
+	font-family:'Brux';
+	src:url(../fonts/BRUX.otf) format('otf'),
+		url(../fonts/BRUX.ttf) format('truetype');
+}
+
+header {
+    background-image: url("https://pbs.twimg.com/profile_banners/1082175331/1452707580/1500x500");
+    background-size: cover;
+    border-bottom: 4px solid #00b5ad;
+    box-shadow: 0 0 5px #00b5ad inset;
+    height: 530px;
+    width: 100%;
+    position: relative;
+    filter:grayscale(68%);
+    -webkit-filter:grayscale(50%);
+    z-index: 6;
+}
+header.fixed{position: fixed;}
+
+.header-container{
+    bottom: 18px;
+    position: absolute;
+    right: 11%;
+    
+}
+h1 {
+    /*font-family:'Brux', sans-serif;*/
+    color: white;
+    transition: color 1s ease 0s;
+    font-size: 2rem;
+    text-shadow: 0 0 2px #000;
+}
+footer {
+    background-color: #f6f6f6;
+    bottom: 0;
+    height: 3em;
+    left: 0;
+    padding: 5px 10px;
+    position: fixed;
+    transition: .4s ease;
+    right: 0;
+    border-top: 2px solid #00b5ad;
+}
+footer a .icon{opacity: .5;}
+footer a .icon:hover{opacity: 1; transform: scale(1.5);}
+.spread{
+  text-align: justify;
+}
+.spread::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+section {
+    background-color: #fff;
+    height: 100%;
+    margin-top: -1rem !important;
+     padding: 2em 0 1em 37%;
+    width: 100%;
+    position: fixed;
+box-shadow: 0 1px 4px #525454;
+
+}
+
+
+.layer2.fixed.scrolling {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    
+}
+
+.solo-pic img {
+    border-radius: 8px;
+    margin-bottom: -5px;
+    max-width: 100%;
+}
+.solo-pic {
+    border: 8px solid teal;
+    border-radius: 16px;
+    margin-left: 10%;
+    position: absolute;
+    width: 23%;
+    z-index: 6;
+}
+
+#about{z-index: 4; box-shadow: 0 1px 4px #525454;}
+#twitter{z-index: 3;}
+#twitter {
+    background-color: #f6f6f6;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.twitter-timeline.twitter-timeline-rendered {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*.ui.header {
+    border: medium none;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: calc(2rem - 0.14285em) 0 1rem;
+    padding: 0;
+    text-transform: none;
+    margin-top: -0.14285em;
+    font-size: 1.714em;
+     color: #00b5ad !important;
+}*/
