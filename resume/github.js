@@ -81,64 +81,64 @@
     var SKILLS, l, len1, li, results, skill, span, ul;
     SKILLS = [
       {
-        skill: 'HTML',
+        skill: 'WebSphere',
         value: 9,
+        stack: 'Middleware'
+      }, {
+        skill: 'Apache',
+        value: 9,
+        stack: 'Middleware'
+      }, {
+        skill: 'AWS',
+        value: 6,
+        stack: 'Cloud'
+      }, {
+        skill: 'Jboss',
+        value: 8,
+        stack: 'Middleware'
+      }, {
+        skill: 'Devops',
+        value: 8,
+        stack: 'Agile'
+      }, {
+        skill: 'Docker',
+        value: 7,
         stack: 'frontend'
       }, {
-        skill: 'CSS',
-        value: 9,
-        stack: 'frontend'
-      }, {
-        skill: 'Semantic UI',
+        skill: 'Jenkins',
         value: 6,
         stack: 'frontend'
       }, {
-        skill: 'Javascript',
-        value: 8,
-        stack: 'frontend'
-      }, {
-        skill: 'JQuery',
-        value: 8,
-        stack: 'frontend'
-      }, {
-        skill: 'Angular JS',
+        skill: 'Db2',
         value: 5,
         stack: 'frontend'
       }, {
-        skill: 'Ember JS',
+        skill: 'Kubernetes',
         value: 3,
         stack: 'frontend'
       }, {
-        skill: 'Express/Node',
-        value: 3,
-        stack: 'frontend'
-      }, {
-        skill: 'Knockout JS',
-        value: 3,
-        stack: 'frontend'
-      }, {
-        skill: 'CoffeeScript',
+        skill: 'HTML',
         value: 6,
         stack: 'frontend'
       }, {
         skill: 'Django',
-        value: 7,
+        value: 3,
         stack: 'backend'
       }, {
         skill: 'Python',
         value: 6,
         stack: 'backend'
       }, {
-        skill: ' tornado',
-        value: 4,
+        skill: 'Aix',
+        value: 7,
         stack: 'backend'
       }, {
-        skill: 'flask',
+        skill: 'Java',
         value: 4,
         stack: 'backend'
       }, {
         skill: 'GIT',
-        value: 5,
+        value: 6,
         stack: 'others'
       }, {
         skill: 'nginx',
@@ -146,7 +146,7 @@
         stack: 'others'
       }, {
         skill: 'Linux',
-        value: 4,
+        value: 9,
         stack: 'others'
       }
     ];
