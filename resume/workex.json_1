@@ -6,7 +6,7 @@
         "description": "Senior Websphere Specialist",
         "name": "Internat/Core banking",
         "skills": [
-          
+          "frontend: Front-end",
           "WebSphere",
           "Apache",
           "Jboss"
@@ -16,7 +16,7 @@
         "description": "Digital banking Spin up",
         "name": "Digital Banking",
         "skills": [
-          ,
+          "frontend: Front-end",
           "WebSphere",
           "Python",
           "Jboss"
@@ -25,7 +25,7 @@
       {
         "name": "Remittance",
         "skills": [
-          
+          "frontend: Front-end",
           "Devops",
           "Jboss",
           "Shell"
@@ -41,7 +41,7 @@
         "description": "Macys Shopping Inc. <br/>E-Commerce Site.<br/>Pingdom score: 80+<br/>Team size: 9+",
         "name": "Shopping Site ",
         "skills": [
-          
+          "frontend: Front-end",
           "WebSphere",
           "Responsive",
           "Jenkins",
