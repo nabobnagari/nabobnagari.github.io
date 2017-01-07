@@ -1,199 +1,55 @@
 [
   {
-    "company": "<i>September 2015</i>  Zimply ",
+    "company": "<i>September 2013 to Present</i>  Zimply ",
     "projects": [
       {
-        "description": "Mobile Website",
-        "name": "Mobile Website",
+        "description": "Senior Websphere Specialist",
+        "name": "Internat/Core banking",
         "skills": [
           "frontend: Front-end",
-          "Node",
-          "Express",
-          "Jade"
+          "WebSphere",
+          "Apache",
+          "Jboss"
         ]
       },
       {
-        "description": "Internal dashboard for Courier system",
-        "name": "Internal Dashboard",
+        "description": "Digital banking Spin up",
+        "name": "Digital Banking",
         "skills": [
           "frontend: Front-end",
-          "Semantic UI",
-          "Ember JS",
-          "CoffeeScript"
+          "WebSphere",
+          "Python",
+          "Jboss"
         ]
       },
       {
-        "name": "Seller Dashboard",
+        "name": "Remittance",
         "skills": [
           "frontend: Front-end",
-          "Knockout JS",
-          "Semantic UI",
-          "CoffeeScript"
+          "Devops",
+          "Jboss",
+          "Shell"
         ]
       },
-      {
-        "description": "Zimply Website\n Shop , Cart and payment integration,\n Responsive for all device types.<br/>",
-        "name": "Zimply Website",
-        "skills": [
-          "frontend: Front-end",
-          "HTML/CSS"
-        ]
-      }
+      
     ]
   },
   {
     "company": "<i>Jan 2013- Aug 2015</i> Zopper  ",
     "projects": [
       {
-        "description": "Main zopper.com website. <br/>Responsive for all device types.<br/>Pingdom score: 90+<br/>Team size: 2+",
-        "name": "Zopper Website ",
+        "description": "Macys Shopping Inc. <br/>E-Commerce Site.<br/>Pingdom score: 80+<br/>Team size: 9+",
+        "name": "Shopping Site ",
         "skills": [
           "frontend: Front-end",
-          "HTML/CSS",
+          "WebSphere",
           "Responsive",
-          "JQuery",
+          "Jenkins",
           "others:Team management"
         ]
       },
-      {
-        "description": "Internal dashboard for managing supply chain system<br/>\n          Responsive for all device types.<br/>\n          Team size: 3+",
-        "name": "Unified Dashboard ",
-        "skills": [
-          "frontend: Front-end",
-          "Semantic UI",
-          "Responsive",
-          "Angular JS"
-        ]
-      },
-      {
-        "name": "Rocket- Inventory Dashboard",
-        "skills": [
-          "frontend: Front-end",
-          "Angular JS",
-          "Semantic UI"
-        ]
-      },
-      {
-        "description": "Single-Handedly responsible for the entire mobile site.<br/>\n          Consuming external APIs using Tornado.\n          Revamping the website",
-        "name": "Mobile Site ",
-        "skills": [
-          "frontend: Front-end",
-          "HTML CSS",
-          "Jquery",
-          "Jinja/ Jinja2",
-          "backend:backend",
-          "tornado",
-          "others:ansible"
-        ]
-      },
-      {
-        "description": "Consuming elastic APIs to provide interface for healthy competition between online markets.",
-        "name": "Profit",
-        "skills": [
-          "frontend: Front-end",
-          "Bootstap",
-          "Angular JS"
-        ]
-      },
-      {
-        "description": "Portal for the retailers <br/>Syncing with the main website<br/>Integration with OLX/Quickr knowlarity.",
-        "name": "RISE",
-        "skills": [
-          "backend:Backend",
-          "Python /Django",
-          "frontend:Frontend",
-          "Javascript/ JQuery"
-        ]
-      },
-      {
-        "description": "APIs for the  website. <br/>Front end improvements<br/>",
-        "name": "Web and Mobile Site ",
-        "skills": [
-          "backend:Backend",
-          "Python /Django",
-          "frontend:Frontend",
-          "Javascript/ JQuery"
-        ]
-      },
-      {
-        "description": "App.zopper.com. Implementing basic paralax using pure javascript",
-        "name": "<a href ='https://web.archive.org/web/20140726195843/http://app.zopper.com/' target='_blank'>App Landing page </a>",
-        "skills": [
-          "frontend:Frontend",
-          "HTML",
-          "CSS",
-          "paralax",
-          "javascript"
-        ]
-      }
-    ]
-  },
-  {
-    "company": "<i>Jan 2012-June 2012</i>  Rhythm and Hues Studios <b>MIS Intern</b>",
-    "projects": [
-      {
-        "description": "Add remove update inventory.",
-        "name": "Inventory dashboard",
-        "skills": [
-          "CGI/Perl",
-          "PHP",
-          "Ajax"
-        ]
-      },
-      {
-        "description": "One dashboard to view Pie Charts",
-        "name": "Global Monitoring Dashboard",
-        "skills": [
-          "ExtJS",
-          "Python"
-        ]
-      },
-      {
-        "description": "Script in python to ping various location and email if there is a latency lag.",
-        "name": "Latency Scripts ",
-        "skills": [
-          "Python"
-        ]
-      }
-    ]
-  },
-  {
-    "company": "Personal Projects",
-    "projects": [
-      {
-        "description": "Admin dashboard to send SMS to BSNL employees to notify them on reimbursements ",
-        "name": "Nachrict (BSNL)",
-        "skills": [
-          "backend:Backend",
-          "Python /Django",
-          "frontend:Frontend",
-          "Javascript",
-          "others:Mercurial",
-          "others:celery/RabbitMQ"
-        ]
-      },
-      {
-        "description": "Placement Portal for college. <br/>Students can enter details. View and apply for on campus placements.<br/>Admins could add new company, filter students and get aggregated data",
-        "name": "La-ResumeX",
-        "skills": [
-          "backend:Backend",
-          "Python /Django",
-          "frontend:Frontend",
-          "Javascript",
-          "others:Mercurial"
-        ]
-      },
-      {
-        "description": "Feedback management system for courses and teachers after every semester",
-        "name": "Change-Agent",
-        "skills": [
-          "backend:Back-end",
-          "Python /Django",
-          "frontend:Front-end",
-          "Javascript",
-          "others:Mercurial"
-        ]
-      }
-    ]
-  }
-]
+    }
+]	
+ 
+  
+  
